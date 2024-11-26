@@ -1,0 +1,99 @@
+body {
+  background-color: #121212; /* Preto */
+  color: #E0E0E0; /* Texto claro para contraste */
+  font-family: 'Arial', sans-serif;
+}
+
+.notebook {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #1E1E1E; /* Tons de preto mais claro */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  color: #BB86FC; /* Roxo claro */
+  text-align: center;
+}
+
+.item-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.item-input input,
+.item-input button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.item-input input {
+  flex: 1;
+  background-color: #2E2E2E;
+  color: #E0E0E0;
+}
+
+.item-input button {
+  background-color: #BB86FC; /* Roxo claro */
+  color: #121212;
+  cursor: pointer;
+  padding: 6px 5px; /* Reduzir o padding */
+  font-size: 10px; /* Diminuir o tamanho da fonte */
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-input button i {
+  display: block;
+}
+
+.item-list {
+  max-height: 300px; /* Altura fixa para scroll */
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.item-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.item-list li.marked {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.item-list button {
+  background-color: transparent;
+  border: none;
+  color: #BB86FC;
+  cursor: pointer;
+}
+
+.item-list button i {
+  display: block;
+}
+
+h2 {
+  color: #BB86FC;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #888;
+}
